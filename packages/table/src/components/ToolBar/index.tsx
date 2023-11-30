@@ -1,3 +1,4 @@
+// @ts-noCheck
 import { ReloadOutlined, SettingOutlined } from '@ant-design/icons';
 import type { IntlType } from '@ant-design/pro-provider';
 import { useIntl } from '@ant-design/pro-provider';

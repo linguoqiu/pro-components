@@ -9,8 +9,8 @@ import type { FieldSelectProps } from '../Select';
 import { ObjToMap, proFieldParsingText, useFieldFetchData } from '../Select';
 
 // 兼容代码-----------
-import 'antd/es/spin/style';
-import 'antd/es/tree-select/style';
+// import 'antd/es/spin/style';
+// import 'antd/es/tree-select/style';
 //----------------------
 
 export type GroupProps = {

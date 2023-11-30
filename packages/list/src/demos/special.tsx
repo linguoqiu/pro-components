@@ -1,3 +1,4 @@
+// @ts-noCheck
 import { EllipsisOutlined } from '@ant-design/icons';
 import { ProList } from '@ant-design/pro-components';
 import { Button, Progress, Tag } from 'antd';

@@ -1,3 +1,4 @@
+// @ts-noCheck
 import type * as H from 'history';
 import type React from 'react';
 

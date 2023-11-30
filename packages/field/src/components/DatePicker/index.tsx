@@ -8,7 +8,7 @@ import React, { useContext, useState } from 'react';
 import type { ProFieldFC, ProFieldLightProps } from '../../index';
 
 // 兼容代码-----------
-import 'antd/es/date-picker/style';
+// import 'antd/es/date-picker/style';
 //----------------------
 
 dayjs.extend(weekOfYear);

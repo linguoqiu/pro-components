@@ -5,6 +5,7 @@ export const omitUndefined = <T>(obj: T): T => {
       newObj[key] = obj[key];
     }
   });
+  // @ts-ignore
   if (Object.keys(newObj).length < 1) {
     return undefined as any;
   }

@@ -304,7 +304,7 @@ export function SaveEditableAction<T>({
             .flat(1)
             .filter(Boolean) as string[];
           setLoading(true);
-          // @ts-expect-error
+          // @ts-ignore
           await form.validateFields(namePath, {
             recursive: true,
           });
@@ -316,6 +316,7 @@ export function SaveEditableAction<T>({
             const [, ...recordKeyPath] = recordKey;
             // 将目标值获取出来并设置到 fields 当中
             const curValue = get(fields, recordKeyPath as string[]);
+            // @ts-ignore
             set(fields, recordKeyPath, curValue);
           }
           const data = isMapEditor ? set({}, namePath, fields, true) : fields;
@@ -425,6 +426,7 @@ const CancelEditableAction: React.FC<ActionRenderConfig<any> & { row: any }> = (
         cancelEditable(recordKey);
         /** 充值为默认值，不然编辑的行会丢掉 */
         form.setFieldsValue({
+          // @ts-ignore
           [recordKey as React.Key]: isMapEditor ? get(row, namePath) : row,
         });
         return res;

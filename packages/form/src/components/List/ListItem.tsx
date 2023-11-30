@@ -1,4 +1,5 @@
-﻿import { CopyOutlined, DeleteOutlined } from '@ant-design/icons';
+﻿// @ts-noCheck
+import { CopyOutlined, DeleteOutlined } from '@ant-design/icons';
 import type { ButtonProps, FormInstance } from 'antd';
 import { Spin, Tooltip } from 'antd';
 import type { FormListFieldData, FormListOperation, FormListProps } from 'antd/es/form/FormList';

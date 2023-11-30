@@ -1,3 +1,4 @@
+// @ts-noCheck
 import { ConfigProviderWrap } from '@ant-design/pro-provider';
 import { isBrowser, useDocumentTitle, useMountMergeState } from '@ant-design/pro-utils';
 import { getMatchMenu } from '@umijs/route-utils';

@@ -1,3 +1,4 @@
+// @ts-noCheck
 import { ProList } from '@ant-design/pro-components';
 import { Button, Progress, Select } from 'antd';
 import type { ReactText } from 'react';

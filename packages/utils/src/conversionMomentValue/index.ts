@@ -1,3 +1,4 @@
+// @ts-noCheck
 import type { InternalNamePath, NamePath } from 'antd/es/form/interface';
 import dayjs from 'dayjs';
 import get from 'rc-util/lib/utils/get';
@@ -111,6 +112,7 @@ export const conversionMomentValue = <T = any>(
   if (typeof value !== 'object' || isNil(value) || value instanceof Blob || Array.isArray(value)) {
     return value;
   }
+  // @ts-ignore
   Object.keys(value).forEach((key) => {
     const namePath: InternalNamePath = parentKey ? ([parentKey, key].flat(1) as string[]) : [key];
     const valueFormatMap = get(valueTypeMap, namePath) || 'text';

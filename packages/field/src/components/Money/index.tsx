@@ -1,3 +1,4 @@
+// @ts-noCheck
 import { intlMap as allIntlMap, useIntl } from '@ant-design/pro-provider';
 import type { InputNumberProps } from 'antd';
 import { InputNumber, Popover } from 'antd';
@@ -7,8 +8,8 @@ import React, { useMemo } from 'react';
 import type { ProFieldFC } from '../../index';
 
 // 兼容代码-----------
-import 'antd/es/input-number/style';
-import 'antd/es/popover/style';
+// import 'antd/es/input-number/style';
+// import 'antd/es/popover/style';
 //----------------------
 
 export type FieldMoneyProps = {

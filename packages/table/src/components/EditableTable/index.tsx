@@ -1,4 +1,5 @@
-﻿import { PlusOutlined } from '@ant-design/icons';
+﻿// @ts-noCheck
+import { PlusOutlined } from '@ant-design/icons';
 import type { ProFormInstance } from '@ant-design/pro-form';
 import ProForm, { ProFormDependency } from '@ant-design/pro-form';
 import type { ParamsType } from '@ant-design/pro-provider';

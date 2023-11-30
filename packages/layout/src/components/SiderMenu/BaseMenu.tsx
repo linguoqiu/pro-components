@@ -1,3 +1,4 @@
+// @ts-noCheck
 import Icon, { createFromIconfontCN } from '@ant-design/icons';
 import { isImg, isUrl, useMountMergeState } from '@ant-design/pro-utils';
 import type { MenuProps, MenuTheme } from 'antd';

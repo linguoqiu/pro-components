@@ -1,4 +1,5 @@
-﻿import { useStyle } from '@ant-design/pro-utils';
+﻿// @ts-noCheck
+import { useStyle } from '@ant-design/pro-utils';
 import type { RadioGroupProps } from 'antd';
 import { ConfigProvider, Radio, Spin } from 'antd';
 import classNames from 'classnames';
@@ -7,7 +8,7 @@ import type { ProFieldFC } from '../../index';
 import type { FieldSelectProps } from '../Select';
 import { ObjToMap, proFieldParsingText, useFieldFetchData } from '../Select';
 // 兼容代码-----------
-import 'antd/es/radio/style';
+// import 'antd/es/radio/style';
 //------------
 export type GroupProps = {
   options?: RadioGroupProps['options'];

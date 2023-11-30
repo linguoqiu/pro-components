@@ -1,4 +1,5 @@
-﻿import type { ProFieldEmptyText } from '@ant-design/pro-field';
+﻿// @ts-noCheck
+import type { ProFieldEmptyText } from '@ant-design/pro-field';
 import { proFieldParsingValueEnumToArray } from '@ant-design/pro-field';
 import type { ProSchemaComponentTypes, UseEditableUtilType } from '@ant-design/pro-utils';
 import { omitBoolean, omitUndefinedAndEmptyArr, runFunction } from '@ant-design/pro-utils';

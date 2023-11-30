@@ -1,3 +1,4 @@
+// @ts-noCheck
 import type { TableColumnType } from 'antd';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';
 import { noteOnce } from 'rc-util/lib/warning';

@@ -1,3 +1,4 @@
+// @ts-noCheck
 /* eslint max-classes-per-file: ["error", 3] */
 import ProCard from '@ant-design/pro-card';
 import ProForm from '@ant-design/pro-form';

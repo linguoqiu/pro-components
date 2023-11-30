@@ -29,7 +29,7 @@ import type { RequestData } from './useFetchData';
 import useFetchData from './useFetchData';
 
 // 兼容代码-----------
-import 'antd/es/descriptions/style';
+// import 'antd/es/descriptions/style';
 //----------------------
 
 // todo remove it

@@ -3,7 +3,7 @@ import React from 'react';
 import type { ProFieldFC } from '../../index';
 
 // 兼容代码-----------
-import 'antd/es/image/style';
+// import 'antd/es/image/style';
 //----------------------
 
 export type FieldImageProps = {

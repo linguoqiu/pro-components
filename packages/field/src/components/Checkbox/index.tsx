@@ -11,7 +11,7 @@ export type GroupProps = {
   options?: CheckboxGroupProps['options'];
 } & FieldSelectProps;
 // 兼容代码-----------
-import 'antd/es/checkbox/style';
+// import 'antd/es/checkbox/style';
 //----------------------
 /**
  * 多选组件

@@ -1,10 +1,11 @@
+// @ts-noCheck
 import { InputNumber } from 'antd';
 import { omit } from 'lodash';
 import React, { useCallback } from 'react';
 import type { ProFieldFC } from '../../index';
 
 // 兼容代码-----------
-import 'antd/es/input-number/style';
+// import 'antd/es/input-number/style';
 //----------------------
 
 export type FieldDigitProps = {

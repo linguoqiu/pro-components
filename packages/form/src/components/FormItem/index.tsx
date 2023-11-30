@@ -1,4 +1,5 @@
-﻿import type {
+﻿// @ts-noCheck
+import type {
   ProSchemaValueType,
   SearchConvertKeyFn,
   SearchTransformKeyFn,

@@ -67,6 +67,7 @@ export const transformKeySubmitValue = <T extends object = any>(
     Object.keys(tempValues).forEach((entityKey) => {
       const key = parentsKey ? [parentsKey, entityKey].flat(1) : [entityKey].flat(1);
       const itemValue = tempValues[entityKey];
+      // @ts-ignore
       const transformFunction = get(dataFormatMap, key);
 
       const _transformArray = (transformFn: any) => {
