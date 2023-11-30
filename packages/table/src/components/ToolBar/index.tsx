@@ -1,8 +1,8 @@
 // @ts-noCheck
 import { ReloadOutlined, SettingOutlined } from '@ant-design/icons';
-import type { IntlType } from '@ant-design/pro-provider';
-import { useIntl } from '@ant-design/pro-provider';
-import { isDeepEqualReact, omitUndefined } from '@ant-design/pro-utils';
+import type { IntlType } from 'orca-pro-provider';
+import { useIntl } from 'orca-pro-provider';
+import { isDeepEqualReact, omitUndefined } from 'orca-pro-utils';
 import type { TableColumnType } from 'antd';
 import { Tooltip } from 'antd';
 import type { LabelTooltipType } from 'antd/es/form/FormItemLabel';

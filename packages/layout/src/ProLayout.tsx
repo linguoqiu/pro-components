@@ -1,6 +1,6 @@
 // @ts-noCheck
-import { ConfigProviderWrap } from '@ant-design/pro-provider';
-import { isBrowser, useDocumentTitle, useMountMergeState } from '@ant-design/pro-utils';
+import { ConfigProviderWrap } from 'orca-pro-provider';
+import { isBrowser, useDocumentTitle, useMountMergeState } from 'orca-pro-utils';
 import { getMatchMenu } from '@umijs/route-utils';
 import type { BreadcrumbProps as AntdBreadcrumbProps } from 'antd';
 import { ConfigProvider, Layout } from 'antd';

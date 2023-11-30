@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 // @ts-noCheck
-import { useIntl } from '@ant-design/pro-provider';
-import { isBrowser, useMountMergeState } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { isBrowser, useMountMergeState } from 'orca-pro-utils';
 import type { FormItemProps, RowProps } from 'antd';
 import { Col, ConfigProvider, Form, Row } from 'antd';
 import type { FormInstance, FormProps } from 'antd/es/form/Form';

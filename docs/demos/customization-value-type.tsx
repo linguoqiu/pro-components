@@ -1,11 +1,11 @@
-import type { ProFormColumnsType } from '@ant-design/pro-components';
+import type { ProFormColumnsType } from 'orca-pro-components';
 import {
   BetaSchemaForm,
   ProCard,
   ProDescriptions,
   ProProvider,
   ProTable,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import type { InputRef } from 'antd';
 import { Input, Space, Tag } from 'antd';
 import React, { useContext, useRef, useState } from 'react';

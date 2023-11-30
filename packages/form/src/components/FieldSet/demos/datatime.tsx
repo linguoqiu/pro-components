@@ -5,7 +5,7 @@
   ProFormDateTimePicker,
   ProFormDateTimeRangePicker,
   ProFormTimePicker,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Switch } from 'antd';
 import { useState } from 'react';
 

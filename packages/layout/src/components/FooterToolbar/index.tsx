@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { isBrowser } from '@ant-design/pro-utils';
+import { isBrowser } from 'orca-pro-utils';
 import { ConfigProvider } from 'antd';
 import classNames from 'classnames';
 import omit from 'omit.js';

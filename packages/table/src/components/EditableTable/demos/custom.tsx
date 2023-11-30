@@ -1,6 +1,6 @@
 import { PlusOutlined } from '@ant-design/icons';
-import type { ActionType, ProColumns } from '@ant-design/pro-components';
-import { EditableProTable, ProCard, ProFormField } from '@ant-design/pro-components';
+import type { ActionType, ProColumns } from 'orca-pro-components';
+import { EditableProTable, ProCard, ProFormField } from 'orca-pro-components';
 import type { InputRef } from 'antd';
 import { Button, Form, Input, Space, Tag } from 'antd';
 import React, { useRef, useState } from 'react';

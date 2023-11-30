@@ -1,5 +1,5 @@
-import ProProvider from '@ant-design/pro-provider';
-import ProTable from '@ant-design/pro-table';
+import ProProvider from 'orca-pro-provider';
+import ProTable from 'orca-pro-table';
 import { act, fireEvent, render as reactRender, render } from '@testing-library/react';
 import { Input } from 'antd';
 import { waitForComponentToPaint } from '../util';

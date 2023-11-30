@@ -18,7 +18,7 @@ import {
   ProFormSelect,
   ProFormSwitch,
   ProFormText,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { useState } from 'react';
 
 const IconMap = {

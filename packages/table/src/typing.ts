@@ -1,6 +1,6 @@
-﻿import type { ProCardProps } from '@ant-design/pro-card';
-import type { ProFieldEmptyText } from '@ant-design/pro-field';
-import type { LightWrapperProps, ProFormProps, QueryFilterProps } from '@ant-design/pro-form';
+﻿import type { ProCardProps } from 'orca-pro-card';
+import type { ProFieldEmptyText } from 'orca-pro-field';
+import type { LightWrapperProps, ProFormProps, QueryFilterProps } from 'orca-pro-form';
 import type {
   ProCoreActionType,
   ProSchema,
@@ -8,7 +8,7 @@ import type {
   ProTableEditableFnType,
   RowEditableConfig,
   SearchTransformKeyFn,
-} from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
 import type { SpinProps, TableProps } from 'antd';
 import type { SizeType } from 'antd/es/config-provider/SizeContext';
 import type { LabelTooltipType } from 'antd/es/form/FormItemLabel';

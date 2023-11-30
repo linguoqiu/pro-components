@@ -3,7 +3,7 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "changelog": {
-    "repo": "ant-design/pro-components",
+    "repo": "orca-pro-components",
     "cacheDir": ".changelog"
   },
   "ignoreChanges": [

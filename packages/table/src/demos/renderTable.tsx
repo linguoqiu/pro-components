@@ -1,6 +1,6 @@
 import { MailOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ProColumns } from 'orca-pro-components';
+import { ProTable } from 'orca-pro-components';
 import { Card, Descriptions, Menu } from 'antd';
 import { useState } from 'react';
 

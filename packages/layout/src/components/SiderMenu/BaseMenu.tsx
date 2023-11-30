@@ -1,6 +1,6 @@
 // @ts-noCheck
 import Icon, { createFromIconfontCN } from '@ant-design/icons';
-import { isImg, isUrl, useMountMergeState } from '@ant-design/pro-utils';
+import { isImg, isUrl, useMountMergeState } from 'orca-pro-utils';
 import type { MenuProps, MenuTheme } from 'antd';
 import { Menu, Skeleton } from 'antd';
 import type { ItemType } from 'antd/es/menu/hooks/useItems';

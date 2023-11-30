@@ -1,4 +1,4 @@
-﻿import { setAlpha, useToken } from '@ant-design/pro-utils';
+﻿import { setAlpha, useToken } from 'orca-pro-utils';
 // @ts-ignore
 import type { GlobalToken } from 'antd/es/theme/interface';
 import React from 'react';

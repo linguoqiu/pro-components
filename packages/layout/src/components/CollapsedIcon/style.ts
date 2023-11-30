@@ -1,5 +1,5 @@
-﻿import type { GenerateStyle, ProAliasToken } from '@ant-design/pro-utils';
-import { useStyle as useAntdStyle } from '@ant-design/pro-utils';
+﻿import type { GenerateStyle, ProAliasToken } from 'orca-pro-utils';
+import { useStyle as useAntdStyle } from 'orca-pro-utils';
 import { useContext } from 'react';
 import type { BaseLayoutDesignToken } from '../../context/ProLayoutContext';
 import { ProLayoutContext } from '../../context/ProLayoutContext';

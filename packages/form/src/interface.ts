@@ -3,7 +3,7 @@ import type {
   ProFieldValueType,
   ProSchema,
   SearchConvertKeyFn,
-} from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
 import type { ColProps, FormItemProps, RowProps, SpaceProps } from 'antd';
 import type { LabelTooltipType } from 'antd/es/form/FormItemLabel';
 import type React from 'react';

@@ -5,8 +5,8 @@ import {
   VerticalAlignMiddleOutlined,
   VerticalAlignTopOutlined,
 } from '@ant-design/icons';
-import { useIntl } from '@ant-design/pro-provider';
-import { runFunction, useRefFunction } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { runFunction, useRefFunction } from 'orca-pro-utils';
 import type { TableColumnType } from 'antd';
 import { Checkbox, ConfigProvider, Popover, Space, Tooltip, Tree } from 'antd';
 import type { CheckboxChangeEvent } from 'antd/es/checkbox';

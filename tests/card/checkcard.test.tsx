@@ -1,4 +1,4 @@
-import { CheckCard } from '@ant-design/pro-card';
+import { CheckCard } from 'orca-pro-card';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 import { waitForComponentToPaint } from '../util';

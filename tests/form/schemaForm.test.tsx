@@ -1,5 +1,5 @@
-﻿import type { ProFormColumnsType, ProFormLayoutType } from '@ant-design/pro-form';
-import { BetaSchemaForm } from '@ant-design/pro-form';
+﻿import type { ProFormColumnsType, ProFormLayoutType } from 'orca-pro-form';
+import { BetaSchemaForm } from 'orca-pro-form';
 import { act, render } from '@testing-library/react';
 import type { FormInstance } from 'antd';
 import { Input } from 'antd';

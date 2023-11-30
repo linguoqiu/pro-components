@@ -1,5 +1,5 @@
-import ProDescriptions from '@ant-design/pro-descriptions';
-import type { ProCoreActionType } from '@ant-design/pro-utils';
+import ProDescriptions from 'orca-pro-descriptions';
+import type { ProCoreActionType } from 'orca-pro-utils';
 import '@testing-library/jest-dom';
 import { render as reactRender } from '@testing-library/react';
 import { Button } from 'antd';

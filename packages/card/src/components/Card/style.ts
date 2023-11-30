@@ -1,5 +1,5 @@
-import type { GenerateStyle, ProAliasToken } from '@ant-design/pro-utils';
-import { resetComponent, useStyle as useAntdStyle } from '@ant-design/pro-utils';
+import type { GenerateStyle, ProAliasToken } from 'orca-pro-utils';
+import { resetComponent, useStyle as useAntdStyle } from 'orca-pro-utils';
 
 type NewType = ProAliasToken;
 

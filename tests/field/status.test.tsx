@@ -1,4 +1,4 @@
-import Field from '@ant-design/pro-field';
+import Field from 'orca-pro-field';
 import { render } from 'enzyme';
 
 describe('Field Status', () => {

@@ -1,4 +1,4 @@
-import { ErrorBoundary, useToken } from '@ant-design/pro-utils';
+import { ErrorBoundary, useToken } from 'orca-pro-utils';
 import { Layout } from 'antd';
 import classNames from 'classnames';
 import type { CSSProperties } from 'react';

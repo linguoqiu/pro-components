@@ -1,5 +1,5 @@
-import { useIntl } from '@ant-design/pro-provider';
-import { FieldLabel, parseValueToDay, useStyle } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { FieldLabel, parseValueToDay, useStyle } from 'orca-pro-utils';
 import type { DatePickerProps } from 'antd';
 import { ConfigProvider, DatePicker } from 'antd';
 import dayjs from 'dayjs';

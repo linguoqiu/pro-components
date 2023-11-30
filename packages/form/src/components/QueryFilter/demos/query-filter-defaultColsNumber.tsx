@@ -1,4 +1,4 @@
-import { ProFormDatePicker, ProFormText, QueryFilter } from '@ant-design/pro-components';
+import { ProFormDatePicker, ProFormText, QueryFilter } from 'orca-pro-components';
 
 export default () => {
   return (

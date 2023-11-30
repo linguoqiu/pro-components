@@ -1,6 +1,6 @@
 import { QuestionCircleOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-components';
-import { ProTable, TableDropdown } from '@ant-design/pro-components';
+import type { ProColumns } from 'orca-pro-components';
+import { ProTable, TableDropdown } from 'orca-pro-components';
 import { Tooltip } from 'antd';
 import dayjs from 'dayjs';
 

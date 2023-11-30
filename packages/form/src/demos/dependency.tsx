@@ -1,4 +1,4 @@
-import { ProForm, ProFormDependency, ProFormSelect, ProFormText } from '@ant-design/pro-components';
+import { ProForm, ProFormDependency, ProFormSelect, ProFormText } from 'orca-pro-components';
 import { message } from 'antd';
 
 const waitTime = (time: number = 100) => {

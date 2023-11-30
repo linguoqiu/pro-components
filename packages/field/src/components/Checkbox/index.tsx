@@ -1,4 +1,4 @@
-﻿import { useStyle } from '@ant-design/pro-utils';
+﻿import { useStyle } from 'orca-pro-utils';
 import { Checkbox, ConfigProvider, Space, Spin } from 'antd';
 import type { CheckboxGroupProps } from 'antd/es/checkbox';
 import classNames from 'classnames';

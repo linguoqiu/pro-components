@@ -9,7 +9,7 @@ import { ProForm } from './layouts';
 // import 'antd/es/tabs/style';
 // import 'antd/es/upload/style';
 //----------------------
-export { ProFormContext } from '@ant-design/pro-utils';
+export { ProFormContext } from 'orca-pro-utils';
 export type {
   FormInstance,
   FormItemProps,

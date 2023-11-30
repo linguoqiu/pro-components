@@ -1,5 +1,5 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
-import { ProForm, ProFormMoney } from '@ant-design/pro-components';
+import type { ProFormInstance } from 'orca-pro-components';
+import { ProForm, ProFormMoney } from 'orca-pro-components';
 import { message } from 'antd';
 import { useRef } from 'react';
 

@@ -4,7 +4,7 @@ import type {
   ProSchemaComponentTypes,
   SearchConvertKeyFn,
   SearchTransformKeyFn,
-} from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
 import type { FormInstance, FormProps } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';
 import type { CommonFormProps } from '../../BaseForm';

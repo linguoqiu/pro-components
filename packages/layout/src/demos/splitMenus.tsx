@@ -1,4 +1,4 @@
-import ProLayout, { SettingDrawer } from '@ant-design/pro-layout';
+import ProLayout, { SettingDrawer } from 'orca-pro-layout';
 import { PageContainer } from '../components/PageContainer';
 import defaultProps from './_defaultProps';
 

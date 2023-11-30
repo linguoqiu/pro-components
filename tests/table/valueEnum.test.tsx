@@ -1,5 +1,5 @@
-import ProProvider from '@ant-design/pro-provider';
-import ProTable from '@ant-design/pro-table';
+import ProProvider from 'orca-pro-provider';
+import ProTable from 'orca-pro-table';
 import { Input } from 'antd';
 import { mount } from 'enzyme';
 import { useContext } from 'react';

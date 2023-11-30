@@ -1,6 +1,6 @@
 import { FilterOutlined } from '@ant-design/icons';
-import { useIntl } from '@ant-design/pro-provider';
-import { FieldLabel, FilterDropdown } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { FieldLabel, FilterDropdown } from 'orca-pro-utils';
 import type { FormProps } from 'antd';
 import { ConfigProvider } from 'antd';
 import type { SizeType } from 'antd/es/config-provider/SizeContext';

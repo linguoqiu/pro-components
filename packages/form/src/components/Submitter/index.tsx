@@ -1,4 +1,4 @@
-import { useIntl } from '@ant-design/pro-provider';
+import { useIntl } from 'orca-pro-provider';
 import type { ButtonProps } from 'antd';
 import { Button, Form, Space } from 'antd';
 import omit from 'omit.js';

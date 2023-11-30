@@ -8,7 +8,7 @@ import {
   ProFormText,
   ProFormTextArea,
   StepsForm,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Button, message, Modal } from 'antd';
 import { useState } from 'react';
 

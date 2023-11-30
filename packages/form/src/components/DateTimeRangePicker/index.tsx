@@ -1,4 +1,4 @@
-import { dateArrayFormatter } from '@ant-design/pro-utils';
+import { dateArrayFormatter } from 'orca-pro-utils';
 import type { RangePickerProps } from 'antd/es/date-picker/generatePicker';
 import type { Dayjs } from 'dayjs';
 import React, { useContext } from 'react';

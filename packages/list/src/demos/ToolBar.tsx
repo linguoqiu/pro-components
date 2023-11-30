@@ -1,4 +1,4 @@
-import { ProList } from '@ant-design/pro-components';
+import { ProList } from 'orca-pro-components';
 import { Badge, Button } from 'antd';
 import React, { useState } from 'react';
 

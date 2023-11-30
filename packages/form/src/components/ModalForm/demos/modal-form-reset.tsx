@@ -1,5 +1,5 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
-import { ModalForm, ProFormText } from '@ant-design/pro-components';
+import type { ProFormInstance } from 'orca-pro-components';
+import { ModalForm, ProFormText } from 'orca-pro-components';
 import { Button, message, Space } from 'antd';
 import { useRef, useState } from 'react';
 

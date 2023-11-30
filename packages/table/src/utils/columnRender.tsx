@@ -1,11 +1,11 @@
-﻿import type { ProFieldEmptyText } from '@ant-design/pro-field';
+﻿import type { ProFieldEmptyText } from 'orca-pro-field';
 import type {
   ProFieldValueType,
   ProSchemaComponentTypes,
   ProTableEditableFnType,
   UseEditableUtilType,
-} from '@ant-design/pro-utils';
-import { genCopyable, isDeepEqualReact, isNil, LabelIconTip } from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
+import { genCopyable, isDeepEqualReact, isNil, LabelIconTip } from 'orca-pro-utils';
 import { Space } from 'antd';
 import get from 'rc-util/lib/utils/get';
 import React from 'react';

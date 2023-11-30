@@ -1,5 +1,5 @@
-﻿import type { GenerateStyle } from '@ant-design/pro-utils';
-import { resetComponent } from '@ant-design/pro-utils';
+﻿import type { GenerateStyle } from 'orca-pro-utils';
+import { resetComponent } from 'orca-pro-utils';
 import type { AppsLogoComponentsToken } from './index';
 const genAppsLogoComponentsDefaultListStyle: GenerateStyle<AppsLogoComponentsToken> = (token) => {
   return {

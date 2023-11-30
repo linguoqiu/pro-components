@@ -1,4 +1,4 @@
-﻿import { ProForm, ProFormCheckbox, ProFormRadio, ProFormText } from '@ant-design/pro-components';
+﻿import { ProForm, ProFormCheckbox, ProFormRadio, ProFormText } from 'orca-pro-components';
 import { Button } from 'antd';
 
 const layout = {

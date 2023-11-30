@@ -1,10 +1,10 @@
 ﻿// @ts-noCheck
 import { PlusOutlined } from '@ant-design/icons';
-import type { ProFormInstance } from '@ant-design/pro-form';
-import ProForm, { ProFormDependency } from '@ant-design/pro-form';
-import type { ParamsType } from '@ant-design/pro-provider';
-import { useIntl } from '@ant-design/pro-provider';
-import { isDeepEqualReact, runFunction, usePrevious, useRefFunction } from '@ant-design/pro-utils';
+import type { ProFormInstance } from 'orca-pro-form';
+import ProForm, { ProFormDependency } from 'orca-pro-form';
+import type { ParamsType } from 'orca-pro-provider';
+import { useIntl } from 'orca-pro-provider';
+import { isDeepEqualReact, runFunction, usePrevious, useRefFunction } from 'orca-pro-utils';
 import type { ButtonProps, FormItemProps } from 'antd';
 import { Button, Form } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';

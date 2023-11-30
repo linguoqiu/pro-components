@@ -4,7 +4,7 @@ import {
   ProFormSelect,
   ProFormText,
   QueryFilter,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 
 export default () => {
   return (

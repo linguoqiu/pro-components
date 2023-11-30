@@ -6,8 +6,8 @@ import {
   TabletOutlined,
   UserOutlined,
 } from '@ant-design/icons';
-import ProCard from '@ant-design/pro-card';
-import ProLayout, { PageContainer } from '@ant-design/pro-layout';
+import ProCard from 'orca-pro-card';
+import ProLayout, { PageContainer } from 'orca-pro-layout';
 import { Button, Result } from 'antd';
 import { useState } from 'react';
 

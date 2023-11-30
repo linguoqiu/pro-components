@@ -3,8 +3,8 @@ import type {
   ProSchemaValueType,
   SearchConvertKeyFn,
   SearchTransformKeyFn,
-} from '@ant-design/pro-utils';
-import { isDropdownValueType, omitUndefined } from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
+import { isDropdownValueType, omitUndefined } from 'orca-pro-utils';
 import type { FormItemProps } from 'antd';
 import { ConfigProvider, Form } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';

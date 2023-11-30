@@ -1,6 +1,6 @@
-import type { IntlType } from '@ant-design/pro-provider';
-import type { UseEditableUtilType } from '@ant-design/pro-utils';
-import { arrayMoveImmutable } from '@ant-design/pro-utils';
+import type { IntlType } from 'orca-pro-provider';
+import type { UseEditableUtilType } from 'orca-pro-utils';
+import { arrayMoveImmutable } from 'orca-pro-utils';
 import type { TablePaginationConfig } from 'antd';
 import type { SortOrder } from 'antd/es/table/interface';
 import type React from 'react';

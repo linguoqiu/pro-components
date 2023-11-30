@@ -1,4 +1,4 @@
-import { ProDescriptions } from '@ant-design/pro-components';
+import { ProDescriptions } from 'orca-pro-components';
 import dayjs from 'dayjs';
 
 export default () => {

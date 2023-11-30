@@ -1,4 +1,4 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
+import type { ProFormInstance } from 'orca-pro-components';
 import {
   ProForm,
   ProFormCascader,
@@ -10,7 +10,7 @@ import {
   ProFormSelect,
   ProFormText,
   ProFormTreeSelect,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { message, TreeSelect } from 'antd';
 import moment from 'moment';
 import { useRef } from 'react';

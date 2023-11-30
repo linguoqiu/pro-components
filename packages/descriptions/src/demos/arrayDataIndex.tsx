@@ -1,5 +1,5 @@
-import type { ProDescriptionsActionType } from '@ant-design/pro-components';
-import { ProDescriptions } from '@ant-design/pro-components';
+import type { ProDescriptionsActionType } from 'orca-pro-components';
+import { ProDescriptions } from 'orca-pro-components';
 import { Button } from 'antd';
 import { useRef } from 'react';
 

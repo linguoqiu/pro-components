@@ -1,4 +1,4 @@
-﻿import { ModalForm, ProFormText } from '@ant-design/pro-components';
+﻿import { ModalForm, ProFormText } from 'orca-pro-components';
 import { Button, message, Space } from 'antd';
 
 const waitTime = (time: number = 100) => {

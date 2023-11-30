@@ -1,7 +1,7 @@
 import { GithubFilled, InfoCircleFilled, QuestionCircleFilled } from '@ant-design/icons';
-import type { ProLayoutProps } from '@ant-design/pro-components';
-import { ProLayout } from '@ant-design/pro-components';
-import { LoginForm, ProFormText } from '@ant-design/pro-form';
+import type { ProLayoutProps } from 'orca-pro-components';
+import { ProLayout } from 'orca-pro-components';
+import { LoginForm, ProFormText } from 'orca-pro-form';
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import { ConfigProvider } from 'antd';

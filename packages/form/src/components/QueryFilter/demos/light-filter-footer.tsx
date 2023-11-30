@@ -1,4 +1,4 @@
-import { LightFilter, ProFormText } from '@ant-design/pro-components';
+import { LightFilter, ProFormText } from 'orca-pro-components';
 import { Button, Radio, Space } from 'antd';
 import type { SizeType } from 'antd/es/config-provider/SizeContext';
 import React from 'react';

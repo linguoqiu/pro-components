@@ -1,5 +1,5 @@
 ﻿// @ts-noCheck
-import { LabelIconTip, omitUndefined, runFunction, useLatest } from '@ant-design/pro-utils';
+import { LabelIconTip, omitUndefined, runFunction, useLatest } from 'orca-pro-utils';
 import type { FormInstance, FormProps } from 'antd';
 import { Form } from 'antd';
 import omit from 'omit.js';

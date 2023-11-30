@@ -2,8 +2,8 @@
 // import 'antd/es/table/style';
 //----------------------
 
-import { FieldIndexColumn, FieldStatus } from '@ant-design/pro-field';
-import type { IntlType } from '@ant-design/pro-provider';
+import { FieldIndexColumn, FieldStatus } from 'orca-pro-field';
+import type { IntlType } from 'orca-pro-provider';
 import {
   arEGIntl,
   caESIntl,
@@ -22,8 +22,8 @@ import {
   viVNIntl,
   zhCNIntl,
   zhTWIntl,
-} from '@ant-design/pro-provider';
-import type { ProFieldValueType, RowEditableConfig } from '@ant-design/pro-utils';
+} from 'orca-pro-provider';
+import type { ProFieldValueType, RowEditableConfig } from 'orca-pro-utils';
 import type { DragTableProps } from './components/DragSortTable';
 import DragSortTable from './components/DragSortTable';
 import TableDropdown from './components/Dropdown';

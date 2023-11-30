@@ -1,6 +1,6 @@
-import ProForm, { ProFormText } from '@ant-design/pro-form';
-import type { ActionType, EditableFormInstance, ProColumns } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
+import ProForm, { ProFormText } from 'orca-pro-form';
+import type { ActionType, EditableFormInstance, ProColumns } from 'orca-pro-table';
+import { EditableProTable } from 'orca-pro-table';
 import { act, cleanup, fireEvent, render } from '@testing-library/react';
 import { InputNumber } from 'antd';
 import React from 'react';

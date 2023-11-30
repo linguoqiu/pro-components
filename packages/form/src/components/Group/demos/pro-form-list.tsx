@@ -1,11 +1,11 @@
-﻿import type { FormListActionType } from '@ant-design/pro-components';
+﻿import type { FormListActionType } from 'orca-pro-components';
 import {
   ProCard,
   ProForm,
   ProFormGroup,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Button, message, Space } from 'antd';
 import { useRef } from 'react';
 

@@ -1,4 +1,4 @@
-import { ConfigProviderWrap } from '@ant-design/pro-provider';
+import { ConfigProviderWrap } from 'orca-pro-provider';
 import type { AffixProps, BreadcrumbProps, SpinProps, TabPaneProps, TabsProps } from 'antd';
 import { Affix, Breadcrumb, ConfigProvider, Tabs } from 'antd';
 import classNames from 'classnames';

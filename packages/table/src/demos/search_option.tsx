@@ -1,6 +1,6 @@
 import { PlusOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ProColumns } from 'orca-pro-components';
+import { ProTable } from 'orca-pro-components';
 import { Button } from 'antd';
 
 type GithubIssueItem = {

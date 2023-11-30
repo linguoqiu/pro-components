@@ -1,4 +1,4 @@
-import { PageContainer, ProBreadcrumb, ProLayout } from '@ant-design/pro-components';
+import { PageContainer, ProBreadcrumb, ProLayout } from 'orca-pro-components';
 
 export default () => (
   <div

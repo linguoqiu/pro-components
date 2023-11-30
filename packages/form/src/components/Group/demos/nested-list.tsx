@@ -4,7 +4,7 @@
   ProFormGroup,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 
 const Demo = () => {
   return (

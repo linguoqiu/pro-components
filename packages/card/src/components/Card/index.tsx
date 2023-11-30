@@ -1,5 +1,5 @@
 import { RightOutlined } from '@ant-design/icons';
-import { LabelIconTip } from '@ant-design/pro-utils';
+import { LabelIconTip } from 'orca-pro-utils';
 import { ConfigProvider, Grid, Tabs } from 'antd';
 import classNames from 'classnames';
 import omit from 'omit.js';

@@ -1,4 +1,4 @@
-import { isUrl } from '@ant-design/pro-utils';
+import { isUrl } from 'orca-pro-utils';
 import React from 'react';
 import type { AppsLogoComponentsAppList } from './types';
 

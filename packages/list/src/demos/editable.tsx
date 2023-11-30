@@ -1,4 +1,4 @@
-import { ProList } from '@ant-design/pro-components';
+import { ProList } from 'orca-pro-components';
 import { Space, Tag } from 'antd';
 import { useState } from 'react';
 

@@ -1,4 +1,4 @@
-﻿import { ProForm, ProFormDependency, ProFormList, ProFormText } from '@ant-design/pro-components';
+﻿import { ProForm, ProFormDependency, ProFormList, ProFormText } from 'orca-pro-components';
 import { Button } from 'antd';
 
 const Demo = () => {

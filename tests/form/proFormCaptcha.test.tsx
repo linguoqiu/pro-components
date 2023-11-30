@@ -1,4 +1,4 @@
-import ProForm, { ProFormCaptcha } from '@ant-design/pro-form';
+import ProForm, { ProFormCaptcha } from 'orca-pro-form';
 import { Button, message } from 'antd';
 import { mount } from 'enzyme';
 import React from 'react';

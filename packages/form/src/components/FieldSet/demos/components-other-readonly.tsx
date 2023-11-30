@@ -17,7 +17,7 @@ import {
   ProFormTimePicker,
   ProFormUploadButton,
   ProFormUploadDragger,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 
 const Demo = () => (
   <div

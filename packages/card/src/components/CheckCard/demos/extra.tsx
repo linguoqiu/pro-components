@@ -3,7 +3,7 @@
  */
 
 import { EllipsisOutlined } from '@ant-design/icons';
-import { CheckCard } from '@ant-design/pro-components';
+import { CheckCard } from 'orca-pro-components';
 import { Dropdown, Menu, message } from 'antd';
 
 export default () => (

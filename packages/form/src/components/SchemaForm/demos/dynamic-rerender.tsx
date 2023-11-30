@@ -1,5 +1,5 @@
-import type { ProFormColumnsType } from '@ant-design/pro-components';
-import { BetaSchemaForm } from '@ant-design/pro-components';
+import type { ProFormColumnsType } from 'orca-pro-components';
+import { BetaSchemaForm } from 'orca-pro-components';
 import { Input } from 'antd';
 
 const valueEnum = {

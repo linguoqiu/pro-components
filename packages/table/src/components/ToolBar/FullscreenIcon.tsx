@@ -1,6 +1,6 @@
 import { FullscreenExitOutlined, FullscreenOutlined } from '@ant-design/icons';
-import { useIntl } from '@ant-design/pro-provider';
-import { isBrowser } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { isBrowser } from 'orca-pro-utils';
 import { Tooltip } from 'antd';
 import React, { useEffect, useState } from 'react';
 

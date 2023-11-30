@@ -1,6 +1,6 @@
 ﻿import { CopyOutlined, DeleteOutlined } from '@ant-design/icons';
-import { useIntl } from '@ant-design/pro-provider';
-import { ProFormContext } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { ProFormContext } from 'orca-pro-utils';
 import { ConfigProvider, Form } from 'antd';
 import type { LabelTooltipType } from 'antd/es/form/FormItemLabel';
 import type { FormListFieldData, FormListOperation, FormListProps } from 'antd/es/form/FormList';

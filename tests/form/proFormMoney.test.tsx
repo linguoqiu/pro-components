@@ -1,4 +1,4 @@
-import ProForm, { ProFormMoney } from '@ant-design/pro-form';
+import ProForm, { ProFormMoney } from 'orca-pro-form';
 import { ConfigProvider } from 'antd';
 import enGBIntl from 'antd/es/locale/en_GB';
 import { mount } from 'enzyme';

@@ -1,12 +1,12 @@
 ﻿import { PlusOutlined } from '@ant-design/icons';
-import type { ProFormInstance } from '@ant-design/pro-components';
+import type { ProFormInstance } from 'orca-pro-components';
 import {
   DrawerForm,
   ProForm,
   ProFormDateRangePicker,
   ProFormSelect,
   ProFormText,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Button, message } from 'antd';
 import { useRef } from 'react';
 

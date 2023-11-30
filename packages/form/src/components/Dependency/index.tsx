@@ -1,4 +1,4 @@
-import { isDeepEqualReact, merge, ProFormContext } from '@ant-design/pro-utils';
+import { isDeepEqualReact, merge, ProFormContext } from 'orca-pro-utils';
 import type { FormItemProps } from 'antd';
 import { Form } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';

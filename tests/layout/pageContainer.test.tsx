@@ -1,5 +1,5 @@
-import type { ProLayoutProps } from '@ant-design/pro-components';
-import { FooterToolbar, PageContainer, ProLayout } from '@ant-design/pro-components';
+import type { ProLayoutProps } from 'orca-pro-components';
+import { FooterToolbar, PageContainer, ProLayout } from 'orca-pro-components';
 import { render as libraryRender } from '@testing-library/react';
 import { mount, render } from 'enzyme';
 import React, { useEffect, useMemo, useState } from 'react';

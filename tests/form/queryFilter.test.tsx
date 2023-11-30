@@ -1,4 +1,4 @@
-import { ProFormGroup, ProFormText, QueryFilter } from '@ant-design/pro-form';
+import { ProFormGroup, ProFormText, QueryFilter } from 'orca-pro-form';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
 import { waitForComponentToPaint, waitTime } from '../util';

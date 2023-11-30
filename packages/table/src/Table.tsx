@@ -1,9 +1,9 @@
 // @ts-noCheck
 /* eslint max-classes-per-file: ["error", 3] */
-import ProCard from '@ant-design/pro-card';
-import ProForm from '@ant-design/pro-form';
-import type { ParamsType } from '@ant-design/pro-provider';
-import { ConfigProviderWrap, useIntl } from '@ant-design/pro-provider';
+import ProCard from 'orca-pro-card';
+import ProForm from 'orca-pro-form';
+import type { ParamsType } from 'orca-pro-provider';
+import { ConfigProviderWrap, useIntl } from 'orca-pro-provider';
 import {
   editableRowByKey,
   ErrorBoundary,
@@ -13,7 +13,7 @@ import {
   useDeepCompareEffectDebounce,
   useEditableArray,
   useMountMergeState,
-} from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
 import type { TablePaginationConfig } from 'antd';
 import { ConfigProvider, Table } from 'antd';
 import type { GetRowKey, SortOrder, TableCurrentDataSource } from 'antd/es/table/interface';

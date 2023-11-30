@@ -1,6 +1,6 @@
 import { MenuOutlined } from '@ant-design/icons';
-import type { ProColumns } from '@ant-design/pro-components';
-import { arrayMoveImmutable, ProTable, useRefFunction } from '@ant-design/pro-components';
+import type { ProColumns } from 'orca-pro-components';
+import { arrayMoveImmutable, ProTable, useRefFunction } from 'orca-pro-components';
 import { useState } from 'react';
 import { SortableContainer, SortableElement, SortableHandle } from 'react-sortable-hoc';
 import './drag.less';

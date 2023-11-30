@@ -1,5 +1,5 @@
-﻿import type { ProFormColumnsType } from '@ant-design/pro-components';
-import { BetaSchemaForm, ProForm, ProFormSelect, ProFormText } from '@ant-design/pro-components';
+﻿import type { ProFormColumnsType } from 'orca-pro-components';
+import { BetaSchemaForm, ProForm, ProFormSelect, ProFormText } from 'orca-pro-components';
 
 const valueEnum = {
   all: { text: '全部', status: 'Default' },

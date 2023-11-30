@@ -1,6 +1,6 @@
 import { PlusOutlined } from '@ant-design/icons';
-import type { ActionType, ProColumns } from '@ant-design/pro-components';
-import { ProTable } from '@ant-design/pro-components';
+import type { ActionType, ProColumns } from 'orca-pro-components';
+import { ProTable } from 'orca-pro-components';
 import { Button, ConfigProvider, Select, Space } from 'antd';
 import caESIntl from 'antd/es/locale/ca_ES';
 import enGBIntl from 'antd/es/locale/en_GB';

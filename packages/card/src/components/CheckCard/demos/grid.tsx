@@ -2,7 +2,7 @@
  * title: 布局
  */
 
-import { CheckCard } from '@ant-design/pro-components';
+import { CheckCard } from 'orca-pro-components';
 import { Col, Row } from 'antd';
 
 export default () => (

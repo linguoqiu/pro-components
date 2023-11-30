@@ -1,4 +1,4 @@
-import type { ProFieldMoneyProps } from '@ant-design/pro-field';
+import type { ProFieldMoneyProps } from 'orca-pro-field';
 import type { InputNumberProps } from 'antd';
 import React from 'react';
 import type { ProFormFieldItemProps } from '../../interface';

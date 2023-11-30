@@ -1,10 +1,10 @@
-import type { ProColumns } from '@ant-design/pro-components';
+import type { ProColumns } from 'orca-pro-components';
 import {
   EditableProTable,
   ProCard,
   ProFormField,
   useRefFunction,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import React, { useState } from 'react';
 
 const waitTime = (time: number = 100) => {

@@ -1,5 +1,5 @@
-import type { ProFormInstance } from '@ant-design/pro-components';
-import { ProForm, ProFormDatePicker, ProFormText } from '@ant-design/pro-components';
+import type { ProFormInstance } from 'orca-pro-components';
+import { ProForm, ProFormDatePicker, ProFormText } from 'orca-pro-components';
 import { Button, message } from 'antd';
 import dayjs from 'dayjs';
 import { useRef } from 'react';

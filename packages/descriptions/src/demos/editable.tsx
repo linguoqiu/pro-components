@@ -1,4 +1,4 @@
-import { ProDescriptions } from '@ant-design/pro-components';
+import { ProDescriptions } from 'orca-pro-components';
 import { Input, Tooltip } from 'antd';
 import { useRef } from 'react';
 

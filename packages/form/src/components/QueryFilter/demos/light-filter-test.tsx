@@ -5,7 +5,7 @@ import {
   ProFormSelect,
   ProFormSlider,
   ProFormText,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Radio } from 'antd';
 import type { SizeType } from 'antd/es/config-provider/SizeContext';
 import dayjs from 'dayjs';

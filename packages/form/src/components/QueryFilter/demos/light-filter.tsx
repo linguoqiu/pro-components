@@ -14,7 +14,7 @@ import {
   ProFormText,
   ProFormTimePicker,
   ProFormTreeSelect,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Radio, TreeSelect } from 'antd';
 import type { SizeType } from 'antd/es/config-provider/SizeContext';
 import dayjs from 'dayjs';

@@ -1,4 +1,4 @@
-import { ProLayout } from '@ant-design/pro-components';
+import { ProLayout } from 'orca-pro-components';
 import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import { _el, _rs } from 'rc-resize-observer/lib/utils/observerUtil';

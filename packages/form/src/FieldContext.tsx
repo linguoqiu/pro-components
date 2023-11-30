@@ -1,4 +1,4 @@
-import type { ProSchemaValueType, SearchTransformKeyFn } from '@ant-design/pro-utils';
+import type { ProSchemaValueType, SearchTransformKeyFn } from 'orca-pro-utils';
 import type { FormItemProps } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';
 import React from 'react';

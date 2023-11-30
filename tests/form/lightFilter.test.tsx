@@ -8,7 +8,7 @@ import {
   ProFormSlider,
   ProFormText,
   ProFormTimePicker,
-} from '@ant-design/pro-form';
+} from 'orca-pro-form';
 import '@testing-library/jest-dom';
 import { act, render } from '@testing-library/react';
 import dayjs from 'dayjs';

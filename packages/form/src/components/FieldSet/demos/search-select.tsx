@@ -1,4 +1,4 @@
-﻿import { ProForm, ProFormSelect } from '@ant-design/pro-components';
+﻿import { ProForm, ProFormSelect } from 'orca-pro-components';
 import { Switch } from 'antd';
 import { useState } from 'react';
 

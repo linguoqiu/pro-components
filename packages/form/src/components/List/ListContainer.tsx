@@ -1,6 +1,6 @@
 ﻿import { PlusOutlined } from '@ant-design/icons';
-import { useIntl } from '@ant-design/pro-provider';
-import { nanoid, runFunction } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { nanoid, runFunction } from 'orca-pro-utils';
 import { Button } from 'antd';
 import omit from 'omit.js';
 import { useMemo, useRef, useState } from 'react';

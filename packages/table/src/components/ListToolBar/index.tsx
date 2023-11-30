@@ -1,5 +1,5 @@
-import { useIntl } from '@ant-design/pro-provider';
-import { LabelIconTip } from '@ant-design/pro-utils';
+import { useIntl } from 'orca-pro-provider';
+import { LabelIconTip } from 'orca-pro-utils';
 import type { TabPaneProps } from 'antd';
 import { ConfigProvider, Input, Space, Tabs, Tooltip } from 'antd';
 import type { LabelTooltipType } from 'antd/es/form/FormItemLabel';

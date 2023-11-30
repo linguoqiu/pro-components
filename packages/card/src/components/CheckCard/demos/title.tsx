@@ -3,7 +3,7 @@
  */
 
 import { AppstoreOutlined } from '@ant-design/icons';
-import { CheckCard } from '@ant-design/pro-components';
+import { CheckCard } from 'orca-pro-components';
 import { Tag } from 'antd';
 
 export default () => (

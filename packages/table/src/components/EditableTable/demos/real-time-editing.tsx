@@ -1,5 +1,5 @@
-import type { ProColumns } from '@ant-design/pro-components';
-import { EditableProTable, ProCard, ProFormField } from '@ant-design/pro-components';
+import type { ProColumns } from 'orca-pro-components';
+import { EditableProTable, ProCard, ProFormField } from 'orca-pro-components';
 import { Button } from 'antd';
 import React, { useState } from 'react';
 

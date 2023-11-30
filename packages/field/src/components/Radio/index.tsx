@@ -1,5 +1,5 @@
 ﻿// @ts-noCheck
-import { useStyle } from '@ant-design/pro-utils';
+import { useStyle } from 'orca-pro-utils';
 import type { RadioGroupProps } from 'antd';
 import { ConfigProvider, Radio, Spin } from 'antd';
 import classNames from 'classnames';

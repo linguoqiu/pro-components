@@ -1,4 +1,4 @@
-import { useToken } from '@ant-design/pro-utils';
+import { useToken } from 'orca-pro-utils';
 import type { AvatarProps, SiderProps } from 'antd';
 import { Avatar, ConfigProvider, Layout, Menu, Space } from 'antd';
 import type { ItemType } from 'antd/es/menu/hooks/useItems';

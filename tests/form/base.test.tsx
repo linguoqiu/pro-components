@@ -1,5 +1,5 @@
 import { FontSizeOutlined } from '@ant-design/icons';
-import type { ProFormInstance } from '@ant-design/pro-form';
+import type { ProFormInstance } from 'orca-pro-form';
 import ProForm, {
   ProFormCaptcha,
   ProFormColorPicker,
@@ -11,7 +11,7 @@ import ProForm, {
   ProFormField,
   ProFormSelect,
   ProFormText,
-} from '@ant-design/pro-form';
+} from 'orca-pro-form';
 import '@testing-library/jest-dom';
 import { act, fireEvent, render } from '@testing-library/react';
 import { Button, ConfigProvider, Input } from 'antd';

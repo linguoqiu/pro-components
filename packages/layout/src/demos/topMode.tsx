@@ -7,9 +7,9 @@ import {
   QuestionCircleFilled,
   SearchOutlined,
 } from '@ant-design/icons';
-import ProCard from '@ant-design/pro-card';
-import type { ProSettings } from '@ant-design/pro-layout';
-import { PageContainer, ProLayout } from '@ant-design/pro-layout';
+import ProCard from 'orca-pro-card';
+import type { ProSettings } from 'orca-pro-layout';
+import { PageContainer, ProLayout } from 'orca-pro-layout';
 import { css } from '@emotion/css';
 import { Divider, Dropdown, Input } from 'antd';
 import React, { useState } from 'react';

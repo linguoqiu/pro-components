@@ -1,4 +1,4 @@
-import ConfigContext, { useIntl } from '@ant-design/pro-provider';
+import ConfigContext, { useIntl } from 'orca-pro-provider';
 import type {
   BaseProFieldFC,
   ProFieldFCRenderProps,
@@ -7,8 +7,8 @@ import type {
   ProFieldValueObjectType,
   ProFieldValueType,
   ProRenderFieldPropsType,
-} from '@ant-design/pro-utils';
-import { omitUndefined, pickProProps } from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
+import { omitUndefined, pickProProps } from 'orca-pro-utils';
 import { Avatar } from 'antd';
 // import type {RangeInputNumberProps,ExtraProps as } from './components/DigitRange'
 import { noteOnce } from 'rc-util/lib/warning';

@@ -1,5 +1,5 @@
 import { CrownOutlined, LeftOutlined, SmileOutlined, UserOutlined } from '@ant-design/icons';
-import ProLayout from '@ant-design/pro-layout';
+import ProLayout from 'orca-pro-layout';
 import { Button, Result, Space, Tag } from 'antd';
 import { useState } from 'react';
 

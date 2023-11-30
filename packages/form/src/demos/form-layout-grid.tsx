@@ -8,7 +8,7 @@ import {
   ProFormSwitch,
   ProFormText,
   ProFormTextArea,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Col, message, Row, Space } from 'antd';
 import type { FormLayout } from 'antd/es/form/Form';
 import { useState } from 'react';

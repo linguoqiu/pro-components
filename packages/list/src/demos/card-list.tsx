@@ -1,4 +1,4 @@
-import { ProFormRadio, ProFormSwitch, ProList } from '@ant-design/pro-components';
+import { ProFormRadio, ProFormSwitch, ProList } from 'orca-pro-components';
 import { Progress, Tag } from 'antd';
 import { useState } from 'react';
 

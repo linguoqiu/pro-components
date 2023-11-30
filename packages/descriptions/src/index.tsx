@@ -1,6 +1,6 @@
 import { CheckOutlined, CloseOutlined, EditOutlined } from '@ant-design/icons';
-import ProForm, { ProFormField } from '@ant-design/pro-form';
-import ProSkeleton from '@ant-design/pro-skeleton';
+import ProForm, { ProFormField } from 'orca-pro-form';
+import ProSkeleton from 'orca-pro-skeleton';
 import type {
   ProCoreActionType,
   ProFieldFCMode,
@@ -9,7 +9,7 @@ import type {
   ProSchemaComponentTypes,
   RowEditableConfig,
   UseEditableMapUtilType,
-} from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
 import {
   ErrorBoundary,
   genCopyable,
@@ -17,7 +17,7 @@ import {
   InlineErrorFormItem,
   LabelIconTip,
   useEditableMap,
-} from '@ant-design/pro-utils';
+} from 'orca-pro-utils';
 import type { DescriptionsProps, FormInstance, FormProps } from 'antd';
 import { ConfigProvider, Descriptions, Space } from 'antd';
 import type { LabelTooltipType } from 'antd/es/form/FormItemLabel';

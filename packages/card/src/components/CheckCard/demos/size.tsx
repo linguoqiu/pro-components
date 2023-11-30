@@ -2,7 +2,7 @@
  * title: 不同尺寸
  */
 
-import { CheckCard } from '@ant-design/pro-components';
+import { CheckCard } from 'orca-pro-components';
 import { Radio } from 'antd';
 import { useState } from 'react';
 

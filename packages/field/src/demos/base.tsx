@@ -1,5 +1,5 @@
-import type { ProFieldFCMode } from '@ant-design/pro-components';
-import Field from '@ant-design/pro-field';
+import type { ProFieldFCMode } from 'orca-pro-components';
+import Field from 'orca-pro-field';
 import { Descriptions, Radio, Space, Switch } from 'antd';
 import dayjs from 'dayjs';
 import { useState } from 'react';

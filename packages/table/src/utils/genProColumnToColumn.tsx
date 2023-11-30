@@ -1,8 +1,8 @@
 ﻿// @ts-noCheck
-import type { ProFieldEmptyText } from '@ant-design/pro-field';
-import { proFieldParsingValueEnumToArray } from '@ant-design/pro-field';
-import type { ProSchemaComponentTypes, UseEditableUtilType } from '@ant-design/pro-utils';
-import { omitBoolean, omitUndefinedAndEmptyArr, runFunction } from '@ant-design/pro-utils';
+import type { ProFieldEmptyText } from 'orca-pro-field';
+import { proFieldParsingValueEnumToArray } from 'orca-pro-field';
+import type { ProSchemaComponentTypes, UseEditableUtilType } from 'orca-pro-utils';
+import { omitBoolean, omitUndefinedAndEmptyArr, runFunction } from 'orca-pro-utils';
 import type { TableColumnType, TableProps } from 'antd';
 import { Table } from 'antd';
 import type { useContainer } from '../container';

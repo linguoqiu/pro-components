@@ -4,7 +4,7 @@
   ProFormGroup,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Form } from 'antd';
 import type { NamePath } from 'antd/es/form/interface';
 

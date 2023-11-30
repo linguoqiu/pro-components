@@ -1,4 +1,4 @@
-import { PageContainer, ProLayout } from '@ant-design/pro-components';
+import { PageContainer, ProLayout } from 'orca-pro-components';
 import { render as libraryRender } from '@testing-library/react';
 import { mount, render } from 'enzyme';
 import { act } from 'react-dom/test-utils';

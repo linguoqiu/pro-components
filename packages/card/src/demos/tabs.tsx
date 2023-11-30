@@ -1,5 +1,5 @@
-import type { ProCardTabsProps } from '@ant-design/pro-components';
-import { ProCard } from '@ant-design/pro-components';
+import type { ProCardTabsProps } from 'orca-pro-components';
+import { ProCard } from 'orca-pro-components';
 import { Select, Space } from 'antd';
 import { useState } from 'react';
 

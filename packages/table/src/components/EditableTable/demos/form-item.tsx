@@ -1,4 +1,4 @@
-﻿import type { EditableFormInstance, ProColumns, ProFormInstance } from '@ant-design/pro-components';
+﻿import type { EditableFormInstance, ProColumns, ProFormInstance } from 'orca-pro-components';
 import {
   EditableProTable,
   ProCard,
@@ -6,7 +6,7 @@ import {
   ProFormDependency,
   ProFormField,
   ProFormRadio,
-} from '@ant-design/pro-components';
+} from 'orca-pro-components';
 import { Button } from 'antd';
 import React, { useRef, useState } from 'react';
 

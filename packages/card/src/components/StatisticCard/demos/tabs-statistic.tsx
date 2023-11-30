@@ -1,5 +1,5 @@
-import type { StatisticProps } from '@ant-design/pro-components';
-import { ProCard, StatisticCard } from '@ant-design/pro-components';
+import type { StatisticProps } from 'orca-pro-components';
+import { ProCard, StatisticCard } from 'orca-pro-components';
 
 const { Statistic } = StatisticCard;
 

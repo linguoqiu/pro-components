@@ -1,6 +1,6 @@
 import type { CSSObject } from '@ant-design/cssinjs';
-import type { GenerateStyle, ProAliasToken } from '@ant-design/pro-utils';
-import { operationUnit, resetComponent, useStyle as useAntdStyle } from '@ant-design/pro-utils';
+import type { GenerateStyle, ProAliasToken } from 'orca-pro-utils';
+import { operationUnit, resetComponent, useStyle as useAntdStyle } from 'orca-pro-utils';
 export interface PageHeaderToken extends ProAliasToken {
   componentCls: string;
   pageHeaderPadding: number;

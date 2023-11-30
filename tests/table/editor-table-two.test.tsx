@@ -1,6 +1,6 @@
-import ProForm, { ProFormText } from '@ant-design/pro-form';
-import type { ActionType, ProColumns, TableRowEditable } from '@ant-design/pro-table';
-import { EditableProTable } from '@ant-design/pro-table';
+import ProForm, { ProFormText } from 'orca-pro-form';
+import type { ActionType, ProColumns, TableRowEditable } from 'orca-pro-table';
+import { EditableProTable } from 'orca-pro-table';
 import { act, fireEvent, render } from '@testing-library/react';
 import { Button, Input, InputNumber } from 'antd';
 import useMergedState from 'rc-util/lib/hooks/useMergedState';

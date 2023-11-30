@@ -1,5 +1,5 @@
-import type { IntlType } from '@ant-design/pro-provider';
-import { useIntl } from '@ant-design/pro-provider';
+import type { IntlType } from 'orca-pro-provider';
+import { useIntl } from 'orca-pro-provider';
 import { Alert, ConfigProvider, Space } from 'antd';
 import React, { useContext } from 'react';
 import { useStyle } from './style';

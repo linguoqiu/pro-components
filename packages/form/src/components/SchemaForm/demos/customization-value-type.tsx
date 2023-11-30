@@ -1,10 +1,10 @@
-import type { ProFormColumnsType } from '@ant-design/pro-components';
-import { BetaSchemaForm, ProProvider } from '@ant-design/pro-components';
+import type { ProFormColumnsType } from 'orca-pro-components';
+import { BetaSchemaForm, ProProvider } from 'orca-pro-components';
 import type { InputRef } from 'antd';
 import { Input, Space, Tag } from 'antd';
 import React, { useContext, useRef, useState } from 'react';
 
-declare module '@ant-design/pro-utils' {
+declare module 'orca-pro-utils' {
   interface ProFieldValueTypeWithFieldProps {
     tags: Record<string, any>;
     link: {

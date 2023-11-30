@@ -1,4 +1,4 @@
-import ProTable from '@ant-design/pro-table';
+import ProTable from 'orca-pro-table';
 import { fireEvent, render } from '@testing-library/react';
 import type { FormInstance } from 'antd';
 import { Input } from 'antd';

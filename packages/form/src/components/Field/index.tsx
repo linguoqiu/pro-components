@@ -1,6 +1,6 @@
-import ProField from '@ant-design/pro-field';
-import type { ProSchema } from '@ant-design/pro-utils';
-import { isDeepEqualReact, runFunction } from '@ant-design/pro-utils';
+import ProField from 'orca-pro-field';
+import type { ProSchema } from 'orca-pro-utils';
+import { isDeepEqualReact, runFunction } from 'orca-pro-utils';
 import React, { memo, useContext, useMemo } from 'react';
 import { createField } from '../../BaseForm/createField';
 import { EditOrReadOnlyContext } from '../../BaseForm/EditOrReadOnlyContext';

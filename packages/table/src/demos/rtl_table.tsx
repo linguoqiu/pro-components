@@ -1,6 +1,6 @@
 import { PlusOutlined } from '@ant-design/icons';
-import type { ActionType, ProColumns } from '@ant-design/pro-components';
-import { ProTable, TableDropdown } from '@ant-design/pro-components';
+import type { ActionType, ProColumns } from 'orca-pro-components';
+import { ProTable, TableDropdown } from 'orca-pro-components';
 import { Button, ConfigProvider, Space, Tag } from 'antd';
 import arEGIntl from 'antd/es/locale/ar_EG';
 import { useRef } from 'react';

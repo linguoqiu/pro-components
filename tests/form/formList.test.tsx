@@ -1,12 +1,12 @@
 ﻿import { CloseOutlined, SnippetsOutlined } from '@ant-design/icons';
-import type { FormListActionType } from '@ant-design/pro-form';
+import type { FormListActionType } from 'orca-pro-form';
 import ProForm, {
   ProFormDatePicker,
   ProFormDependency,
   ProFormGroup,
   ProFormList,
   ProFormText,
-} from '@ant-design/pro-form';
+} from 'orca-pro-form';
 import '@testing-library/jest-dom';
 import { act, fireEvent, render as reactRender, render } from '@testing-library/react';
 import { Button, Form } from 'antd';

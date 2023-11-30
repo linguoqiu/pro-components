@@ -1,4 +1,4 @@
-﻿import ProForm, { ProFormUploadButton, ProFormUploadDragger } from '@ant-design/pro-form';
+﻿import ProForm, { ProFormUploadButton, ProFormUploadDragger } from 'orca-pro-form';
 import type { UploadFile } from 'antd/es/upload/interface';
 import { mount } from 'enzyme';
 import { act } from 'react-dom/test-utils';
