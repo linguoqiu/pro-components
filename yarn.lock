@@ -57,6 +57,179 @@
     lodash "^4.17.15"
     rc-util "^5.9.4"
 
+"@ant-design/pro-card@2.0.0-experimental.21":
+  version "2.0.0-experimental.21"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-card/-/pro-card-2.0.0-experimental.21.tgz#55ba1def2205391a18ba235c3a2d2cc7186059c8"
+  integrity sha512-44gS4ixdiiVDyBXCQyiqKo34DUwOrjL/jOOe0TG4bGyYeQug6AmmvvH3Gx5Nrkd4ZOs8Xu79OQrnvNTNCqEBZw==
+  dependencies:
+    "@ant-design/icons" "^4.2.1"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.2.6"
+    omit.js "^2.0.2"
+    rc-util "^5.4.0"
+
+"@ant-design/pro-components@2.1.2":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-components/-/pro-components-2.1.2.tgz#7965b08c45e20432a727c21a7272057eb4ff0cbd"
+  integrity sha512-QRDs3hDRG5aKXwsvGb5rCw+yFKuA9wRaxhQrkzRuIgWvLZZ73X+fJVxakuQqZ4tskkLmjl8eVY0NQzYmqf+EAA==
+  dependencies:
+    "@ant-design/pro-card" "2.0.0-experimental.21"
+    "@ant-design/pro-descriptions" "2.0.0-experimental.22"
+    "@ant-design/pro-field" "2.0.0-experimental.21"
+    "@ant-design/pro-form" "2.0.0-experimental.22"
+    "@ant-design/pro-layout" "7.0.0-experimental.33"
+    "@ant-design/pro-list" "2.0.0-experimental.23"
+    "@ant-design/pro-provider" "2.0.0-experimental.13"
+    "@ant-design/pro-skeleton" "2.0.0-experimental.9"
+    "@ant-design/pro-table" "3.0.0-experimental.23"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.16.3"
+
+"@ant-design/pro-descriptions@2.0.0-experimental.22":
+  version "2.0.0-experimental.22"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-descriptions/-/pro-descriptions-2.0.0-experimental.22.tgz#3fd537f29ddccef6771820633c90a9d16516d74c"
+  integrity sha512-CUbyO6ujg1bdcK16zQQ6GbPD93xVjvAlyCcfRAPiEg+r244DolJfk+HZHF1+M9Wdp+Hir9np7eZtGVaVaIP3sg==
+  dependencies:
+    "@ant-design/pro-field" "2.0.0-experimental.21"
+    "@ant-design/pro-form" "2.0.0-experimental.22"
+    "@ant-design/pro-skeleton" "2.0.0-experimental.9"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.18.0"
+    rc-util "^5.0.6"
+    use-json-comparison "^1.0.5"
+
+"@ant-design/pro-field@2.0.0-experimental.21":
+  version "2.0.0-experimental.21"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-field/-/pro-field-2.0.0-experimental.21.tgz#bb6533d76793764d189101452316cef8bc089794"
+  integrity sha512-huY7r+cjxURIFSUFhsOiJsxnvstPjbnBSxWilqwUEEO+qsVC3jH/ug9o1FZGLwX0FgpTsdAuPTSvxHd4zF20MQ==
+  dependencies:
+    "@ant-design/icons" "^4.2.1"
+    "@ant-design/pro-provider" "2.0.0-experimental.13"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.18.0"
+    "@chenshuai2144/sketch-color" "^1.0.8"
+    classnames "^2.2.6"
+    dayjs "^1.11.4"
+    lodash.tonumber "^4.0.3"
+    omit.js "^2.0.2"
+    rc-util "^5.4.0"
+    swr "^1.2.0"
+
+"@ant-design/pro-form@2.0.0-experimental.22":
+  version "2.0.0-experimental.22"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-form/-/pro-form-2.0.0-experimental.22.tgz#3ebeab65d6385576ac1db64dd7b82e45c97f6e82"
+  integrity sha512-2TT5zr17cRm+DtX0X4SMbIdbUhrj5e9f5e4D/Yea3OHvF8dQXkpUY/Ci+SQ28gb9/KPwZCYeM1P3mkDk8SWMWQ==
+  dependencies:
+    "@ant-design/icons" "^4.2.1"
+    "@ant-design/pro-field" "2.0.0-experimental.21"
+    "@ant-design/pro-provider" "2.0.0-experimental.13"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.18.0"
+    "@umijs/use-params" "^1.0.9"
+    classnames "^2.2.6"
+    lodash.merge "^4.6.2"
+    omit.js "^2.0.2"
+    rc-resize-observer "^1.1.0"
+    rc-util "^5.0.6"
+    use-json-comparison "^1.0.5"
+    use-media-antd-query "^1.1.0"
+
+"@ant-design/pro-layout@7.0.0-experimental.33":
+  version "7.0.0-experimental.33"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-layout/-/pro-layout-7.0.0-experimental.33.tgz#391856885eb5a0d3979db05ffeabf43f286e6591"
+  integrity sha512-IdzupzSnCDXxFMdvb2w9fmg1g4n9/01shKje6jiV2J+rAMft7EgYWZ3mRuu3qiOxnsPiON/s9uB1lekJMl0NZw==
+  dependencies:
+    "@ant-design/icons" "^4.0.0"
+    "@ant-design/pro-provider" "2.0.0-experimental.13"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.18.0"
+    "@umijs/route-utils" "^2.1.0"
+    "@umijs/ssr-darkreader" "^4.9.44"
+    "@umijs/use-params" "^1.0.9"
+    classnames "^2.2.6"
+    lodash.merge "^4.6.2"
+    omit.js "^2.0.2"
+    path-to-regexp "2.4.0"
+    rc-resize-observer "^1.1.0"
+    rc-util "^5.0.6"
+    swr "^1.2.0"
+    unstated-next "^1.1.0"
+    use-json-comparison "^1.0.3"
+    use-media-antd-query "^1.1.0"
+    warning "^4.0.3"
+
+"@ant-design/pro-list@2.0.0-experimental.23":
+  version "2.0.0-experimental.23"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-list/-/pro-list-2.0.0-experimental.23.tgz#6769d312e136a50a52d51d1472c30994a66bc6d1"
+  integrity sha512-4ONhttameRklxNqhC8RaEF7IIKctPCOZ9Br5/lu85F4lvxlSWGCI++GNrZ8+bn5jWtaQgBUQmkdnT9Kq/t/ZYQ==
+  dependencies:
+    "@ant-design/icons" "^4.0.0"
+    "@ant-design/pro-card" "2.0.0-experimental.21"
+    "@ant-design/pro-field" "2.0.0-experimental.21"
+    "@ant-design/pro-table" "3.0.0-experimental.23"
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.2.6"
+    dayjs "^1.11.4"
+    rc-resize-observer "^1.0.0"
+    rc-util "^4.19.0"
+    unstated-next "^1.1.0"
+    use-media-antd-query "^1.1.0"
+
+"@ant-design/pro-provider@2.0.0-experimental.13":
+  version "2.0.0-experimental.13"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-provider/-/pro-provider-2.0.0-experimental.13.tgz#8d78290e5a374cf5837b95ee0bcb87663c7d8559"
+  integrity sha512-CsEJbsldViIFjYA1r6m+ApwpJcsLuJZWRfnNgMcgZnTcjKDfX6jjfFyQKlEzAPoTwFTvhlBr2wXLM6WZlw+BqA==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    rc-util "^5.0.1"
+    swr "^1.2.0"
+
+"@ant-design/pro-skeleton@2.0.0-experimental.9":
+  version "2.0.0-experimental.9"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-skeleton/-/pro-skeleton-2.0.0-experimental.9.tgz#252294884cf3e7e84f27ca1c20ae63e74dee96a8"
+  integrity sha512-heaMQS/BOzjn7aBfpADmAiYCR49iyYwJdLx5VwsvUpEIbOzdLTQuTob1nkWNQcwWLj8H9d/QE3OULpRQbdSIBw==
+  dependencies:
+    "@babel/runtime" "^7.18.0"
+    use-media-antd-query "^1.1.0"
+
+"@ant-design/pro-table@3.0.0-experimental.23":
+  version "3.0.0-experimental.23"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-table/-/pro-table-3.0.0-experimental.23.tgz#6af30b1347929385eb0b9517ade67642a52f249b"
+  integrity sha512-ViOVLpctP8h6vX1MRbaMmMlsgXwGHhutf6ICHkR2bokJsXLiqE9IzUTQ8mXCC7vC6ZFxJLpSHErhD9jR1/+4Lg==
+  dependencies:
+    "@ant-design/icons" "^4.1.0"
+    "@ant-design/pro-card" "2.0.0-experimental.21"
+    "@ant-design/pro-field" "2.0.0-experimental.21"
+    "@ant-design/pro-form" "2.0.0-experimental.22"
+    "@ant-design/pro-provider" "2.0.0-experimental.13"
+    "@ant-design/pro-utils" "2.0.0-experimental.20"
+    "@babel/runtime" "^7.18.0"
+    classnames "^2.2.6"
+    dayjs "^1.11.4"
+    omit.js "^2.0.2"
+    rc-util "^5.0.1"
+    react-sortable-hoc "^2.0.0"
+    unstated-next "^1.1.0"
+    use-json-comparison "^1.0.5"
+    use-media-antd-query "^1.1.0"
+
+"@ant-design/pro-utils@2.0.0-experimental.20":
+  version "2.0.0-experimental.20"
+  resolved "https://registry.yarnpkg.com/@ant-design/pro-utils/-/pro-utils-2.0.0-experimental.20.tgz#b803d665b111582a91a14ad1688e5d35f7bde4ac"
+  integrity sha512-PN46oz3/ld7E6PxVGk8jyDAeYQBB+4x44ViFcGITu9zhygdAlyeOCd+RtWK+kEXHnnGLNty/NXXxhB1fguYQ3Q==
+  dependencies:
+    "@ant-design/cssinjs" "^0.0.0-alpha.38"
+    "@ant-design/icons" "^4.3.0"
+    "@ant-design/pro-provider" "2.0.0-experimental.13"
+    "@babel/runtime" "^7.18.0"
+    "@ctrl/tinycolor" "^3.4.0"
+    classnames "^2.2.6"
+    dayjs "^1.11.4"
+    rc-util "^5.0.6"
+    react-sortable-hoc "^2.0.0"
+    swr "^1.2.0"
+
 "@ant-design/react-slick@~1.0.2":
   version "1.0.2"
   resolved "https://registry.npmjs.org/@ant-design/react-slick/-/react-slick-1.0.2.tgz"

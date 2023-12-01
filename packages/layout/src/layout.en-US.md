@@ -347,7 +347,7 @@ The default ProLayout does not provide a footer, but does provide a DefaultFoote
 
 ```tsx | pure
 import { GithubOutlined } from '@ant-design/icons';
-import { DefaultFooter } from '@ant-design/pro-components';
+import { DefaultFooter } from 'orca-pro-components';
 
 <DefaultFooter
   copyright="@2019 by Anthem Experience Technologies"
@@ -389,7 +389,7 @@ Usage.
 RouteContext provides a way to perform operations based on the layout's data, PageContainer and FooterToolbar both rely on RouteContext's data for their functionality.
 
 ```tsx | pure
-import { RouteContext, RouteContextType } from '@ant-design/pro-components';
+import { RouteContext, RouteContextType } from 'orca-pro-components';
 
 const Page = () => (
   <RouteContext.
