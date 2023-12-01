@@ -1,6 +1,6 @@
 {
   "name": "orca-pro-table",
-  "version": "3.0.0-experimental.23",
+  "version": "3.0.0-experimental.24",
   "description": "🏆 Use Ant Design Table like a Pro!",
   "keywords": [
     "antd",
@@ -34,7 +34,7 @@
     "orca-pro-field": "2.0.0-experimental.21",
     "orca-pro-form": "2.0.0-experimental.22",
     "orca-pro-provider": "2.0.0-experimental.13",
-    "orca-pro-utils": "2.0.0-experimental.20",
+    "orca-pro-utils": "2.0.0-experimental.21",
     "@babel/runtime": "^7.18.0",
     "classnames": "^2.2.6",
     "dayjs": "^1.11.4",
