@@ -15155,68 +15155,6 @@ orca-pro-card@2.0.0-experimental.21:
     orca-pro-utils "2.0.0-experimental.20"
     rc-util "^5.4.0"
 
-orca-pro-layout@7.0.0-experimental.33:
-  version "7.0.0-experimental.33"
-  resolved "https://registry.yarnpkg.com/orca-pro-layout/-/orca-pro-layout-7.0.0-experimental.33.tgz#69a5b27162d6033d8058026c5513404285be2e46"
-  integrity sha512-HRjKXeDxCntrFlvO6klw2GmNoCSfrFBhrbXhRdhsgvdeaA8iGWO3JN2UdqVCqNIqzKb4UyDvH6HLQYzX9BrSnQ==
-  dependencies:
-    "@ant-design/icons" "^4.0.0"
-    "@babel/runtime" "^7.18.0"
-    "@umijs/route-utils" "^2.1.0"
-    "@umijs/ssr-darkreader" "^4.9.44"
-    "@umijs/use-params" "^1.0.9"
-    classnames "^2.2.6"
-    lodash.merge "^4.6.2"
-    omit.js "^2.0.2"
-    orca-pro-provider "2.0.0-experimental.13"
-    orca-pro-utils "2.0.0-experimental.20"
-    path-to-regexp "2.4.0"
-    rc-resize-observer "^1.1.0"
-    rc-util "^5.0.6"
-    swr "^1.2.0"
-    unstated-next "^1.1.0"
-    use-json-comparison "^1.0.3"
-    use-media-antd-query "^1.1.0"
-    warning "^4.0.3"
-
-orca-pro-list@2.0.0-experimental.23:
-  version "2.0.0-experimental.23"
-  resolved "https://registry.yarnpkg.com/orca-pro-list/-/orca-pro-list-2.0.0-experimental.23.tgz#633f90af2fbbb98823971fd923c46ca68b0893ef"
-  integrity sha512-LZHGLFdJfEOENLymCaNV8iX7XD8QSfhWQDdMHf1q3ePLgt4gdcRBLeBGaNBTAT52rQjGPBxfDcSUlBlPFtLkZA==
-  dependencies:
-    "@ant-design/icons" "^4.0.0"
-    "@babel/runtime" "^7.18.0"
-    classnames "^2.2.6"
-    dayjs "^1.11.4"
-    orca-pro-card "2.0.0-experimental.21"
-    orca-pro-field "2.0.0-experimental.21"
-    orca-pro-table "3.0.0-experimental.23"
-    rc-resize-observer "^1.0.0"
-    rc-util "^4.19.0"
-    unstated-next "^1.1.0"
-    use-media-antd-query "^1.1.0"
-
-orca-pro-table@3.0.0-experimental.23:
-  version "3.0.0-experimental.23"
-  resolved "https://registry.yarnpkg.com/orca-pro-table/-/orca-pro-table-3.0.0-experimental.23.tgz#bc3db48a9a3094f9f1685a264688f311408263e3"
-  integrity sha512-D3XjitA5XvJwgRG7JAwqsEzQ73ao7SHVYS2hI+k5bgNGPm1z2rrLiAUiRhBcsfXM2vAtJsBdhrXEUlKRfjDecw==
-  dependencies:
-    "@ant-design/icons" "^4.1.0"
-    "@babel/runtime" "^7.18.0"
-    classnames "^2.2.6"
-    dayjs "^1.11.4"
-    omit.js "^2.0.2"
-    orca-pro-card "2.0.0-experimental.21"
-    orca-pro-field "2.0.0-experimental.21"
-    orca-pro-form "2.0.0-experimental.22"
-    orca-pro-provider "2.0.0-experimental.13"
-    orca-pro-utils "2.0.0-experimental.20"
-    rc-util "^5.0.1"
-    react-sortable-hoc "^2.0.0"
-    unstated-next "^1.1.0"
-    use-json-comparison "^1.0.5"
-    use-media-antd-query "^1.1.0"
-
 orca-pro-utils@2.0.0-experimental.20:
   version "2.0.0-experimental.20"
   resolved "https://registry.yarnpkg.com/orca-pro-utils/-/orca-pro-utils-2.0.0-experimental.20.tgz#fb070eff77a66f6695ebc5db7c933acce02037d3"
