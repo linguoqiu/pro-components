@@ -15143,18 +15143,6 @@ ora@^5.4.1:
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
-orca-pro-card@2.0.0-experimental.21:
-  version "2.0.0-experimental.21"
-  resolved "https://registry.yarnpkg.com/orca-pro-card/-/orca-pro-card-2.0.0-experimental.21.tgz#8396df197d3809ef638033bece791cbba8b0bbca"
-  integrity sha512-PGbNejSq49eywWw+HAP3uFlu3QgQL5hdNlKM7BtXmXH0gpDo91MvbLgAB9I3QtEcYBb9uzX3EXi8qYA1YumnyA==
-  dependencies:
-    "@ant-design/icons" "^4.2.1"
-    "@babel/runtime" "^7.18.0"
-    classnames "^2.2.6"
-    omit.js "^2.0.2"
-    orca-pro-utils "2.0.0-experimental.20"
-    rc-util "^5.4.0"
-
 orca-pro-field@2.0.0-experimental.21:
   version "2.0.0-experimental.21"
   resolved "https://registry.yarnpkg.com/orca-pro-field/-/orca-pro-field-2.0.0-experimental.21.tgz#3dbef3570d847fea820f54428546490f1cca7506"
