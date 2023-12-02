@@ -107,14 +107,15 @@ export function useStyle(
    * @example .ant-pro
    */
   const proComponentsCls = `.${getPrefixCls()}-pro`;
+  useStyleRegister({ theme, token, hashId, path: [componentName] }, () =>
+    styleFn({
+      ...token,
+      antCls: '.' + getPrefixCls(),
+      proComponentsCls,
+    }),
+  );
   return {
-    wrapSSR: useStyleRegister({ theme, token, hashId, path: [componentName] }, () =>
-      styleFn({
-        ...token,
-        antCls: '.' + getPrefixCls(),
-        proComponentsCls,
-      }),
-    ),
+    wrapSSR: (e) => e,
     hashId,
   };
 }

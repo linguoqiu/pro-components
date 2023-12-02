@@ -1,6 +1,6 @@
 {
   "name": "orca-pro-layout",
-  "version": "7.0.0-experimental.34",
+  "version": "7.0.0-experimental.35",
   "description": "@ant-design/pro-layout",
   "keywords": [
     "antd",
@@ -32,7 +32,7 @@
   "dependencies": {
     "@ant-design/icons": "^4.0.0",
     "orca-pro-provider": "2.0.0-experimental.13",
-    "orca-pro-utils": "2.0.0-experimental.20",
+    "orca-pro-utils": "2.0.0-experimental.22",
     "@babel/runtime": "^7.18.0",
     "@umijs/route-utils": "^2.1.0",
     "@umijs/ssr-darkreader": "^4.9.44",
