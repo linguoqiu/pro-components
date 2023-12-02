@@ -1,6 +1,6 @@
 {
   "name": "orca-pro-components",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "@ant-design/pro-components",
   "keywords": [
     "antd",
@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "orca-pro-card": "2.0.0-experimental.23",
-    "orca-pro-descriptions": "2.0.0-experimental.22",
+    "orca-pro-descriptions": "2.0.0-experimental.23",
     "orca-pro-field": "2.0.0-experimental.23",
     "orca-pro-form": "2.0.0-experimental.24",
     "orca-pro-layout": "7.0.0-experimental.35",
