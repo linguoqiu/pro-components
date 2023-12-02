@@ -15143,58 +15143,6 @@ ora@^5.4.1:
     strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
-orca-pro-field@2.0.0-experimental.21:
-  version "2.0.0-experimental.21"
-  resolved "https://registry.yarnpkg.com/orca-pro-field/-/orca-pro-field-2.0.0-experimental.21.tgz#3dbef3570d847fea820f54428546490f1cca7506"
-  integrity sha512-BVMKqmtEPrFU71TIX/QraJoHRlT1N8op8cNZ0usXD6SEN81KWwJdoxrGMdsA/8cZ1XEQVzfMinoA5ZGdM83R2w==
-  dependencies:
-    "@ant-design/icons" "^4.2.1"
-    "@babel/runtime" "^7.18.0"
-    "@chenshuai2144/sketch-color" "^1.0.8"
-    classnames "^2.2.6"
-    dayjs "^1.11.4"
-    lodash.tonumber "^4.0.3"
-    omit.js "^2.0.2"
-    orca-pro-provider "2.0.0-experimental.13"
-    orca-pro-utils "2.0.0-experimental.20"
-    rc-util "^5.4.0"
-    swr "^1.2.0"
-
-orca-pro-form@2.0.0-experimental.22:
-  version "2.0.0-experimental.22"
-  resolved "https://registry.yarnpkg.com/orca-pro-form/-/orca-pro-form-2.0.0-experimental.22.tgz#6651da4387890f4d70e3a4c505dd68970716cd79"
-  integrity sha512-bTUspybaoLLmjHIpJvZ0K0qhtBKZEiVG8WIMrKh7oVJZz/D0NY74x/tAdX3oS1I2OHWUzogcb4EiCCbaeJNOAQ==
-  dependencies:
-    "@ant-design/icons" "^4.2.1"
-    "@babel/runtime" "^7.18.0"
-    "@umijs/use-params" "^1.0.9"
-    classnames "^2.2.6"
-    lodash.merge "^4.6.2"
-    omit.js "^2.0.2"
-    orca-pro-field "2.0.0-experimental.21"
-    orca-pro-provider "2.0.0-experimental.13"
-    orca-pro-utils "2.0.0-experimental.20"
-    rc-resize-observer "^1.1.0"
-    rc-util "^5.0.6"
-    use-json-comparison "^1.0.5"
-    use-media-antd-query "^1.1.0"
-
-orca-pro-utils@2.0.0-experimental.20:
-  version "2.0.0-experimental.20"
-  resolved "https://registry.yarnpkg.com/orca-pro-utils/-/orca-pro-utils-2.0.0-experimental.20.tgz#fb070eff77a66f6695ebc5db7c933acce02037d3"
-  integrity sha512-4n3RGDiFANDDubkPFzPwansGKEQnT6jHPdYwTBCZtoQGwLAimq0yIBQD7c3NUMjv4Uf6Yb0cd3dVba0Vwjnjmw==
-  dependencies:
-    "@ant-design/cssinjs" "^0.0.0-alpha.38"
-    "@ant-design/icons" "^4.3.0"
-    "@babel/runtime" "^7.18.0"
-    "@ctrl/tinycolor" "^3.4.0"
-    classnames "^2.2.6"
-    dayjs "^1.11.4"
-    orca-pro-provider "2.0.0-experimental.13"
-    rc-util "^5.0.6"
-    react-sortable-hoc "^2.0.0"
-    swr "^1.2.0"
-
 ordered-read-streams@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/ordered-read-streams/-/ordered-read-streams-1.0.1.tgz"
