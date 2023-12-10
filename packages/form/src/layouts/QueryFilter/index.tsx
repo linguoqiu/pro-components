@@ -176,6 +176,13 @@ export type BaseQueryFilterProps = Omit<ActionsProps, 'submitter' | 'setCollapse
    * @name 是否显示 collapse 隐藏个数
    */
   showHiddenNum?: boolean;
+
+  /**
+   * 是否將表單搜索按鈕與條件放在同一行展示（pro-form 的默認展示規則）
+   * 如果設置成 false，會變成搜索按鈕在表單下方，獨立占用一行
+   * @default true
+   */
+  formActionInline?: boolean;
 };
 
 const flatMapItems = (items: React.ReactNode[], ignoreRules?: boolean): React.ReactNode[] => {
@@ -224,6 +231,7 @@ const QueryFilterContent: React.FC<{
   ignoreRules?: boolean;
   preserve?: boolean;
   showHiddenNum?: boolean;
+  formActionInline?: boolean;
 }> = (props) => {
   const intl = useIntl();
   const resetText = props.resetText || intl.getMessage('tableForm.reset', '重置');
@@ -246,6 +254,7 @@ const QueryFilterContent: React.FC<{
     showLength,
     searchGutter,
     showHiddenNum,
+    formActionInline,
   } = props;
 
   const submitter = useMemo(() => {
@@ -306,7 +315,7 @@ const QueryFilterContent: React.FC<{
         (collapsed &&
           (firstRowFull ||
             // 如果 超过显示长度 且 总长度超过了 24
-            totalSize > showLength - 1) &&
+            totalSize > showLength - (formActionInline ? 1 : 0)) &&
           !!index &&
           totalSpan >= 24);
 
@@ -400,13 +409,13 @@ const QueryFilterContent: React.FC<{
       {submitter && (
         <Col
           key="submitter"
-          span={spanSize.span}
-          offset={offset}
+          span={formActionInline ? spanSize.span : 24}
+          offset={formActionInline ? offset : 0}
           style={{
-            textAlign: 'right',
+            textAlign: formActionInline ? 'right' : 'left',
           }}
         >
-          <Form.Item label=" " colon={false} className={`${baseClassName}-actions`}>
+          <Form.Item colon={false} className={`${baseClassName}-actions`}>
             <Actions
               hiddenNum={hiddenNum}
               key="pro-form-query-filter-actions"
@@ -444,6 +453,7 @@ function QueryFilter<T = Record<string, any>>(props: QueryFilterProps<T>) {
     preserve = true,
     ignoreRules,
     showHiddenNum = false,
+    formActionInline = true,
     ...rest
   } = props;
 
@@ -460,9 +470,9 @@ function QueryFilter<T = Record<string, any>>(props: QueryFilterProps<T>) {
   const showLength = useMemo(() => {
     // 查询重置按钮也会占一个spanSize格子，需要减掉计算
     if (defaultColsNumber !== undefined) {
-      return defaultColsNumber - 1;
+      return defaultColsNumber - (formActionInline ? 1 : 0);
     }
-    return Math.max(1, 24 / spanSize.span - 1);
+    return Math.max(1, 24 / spanSize.span - (formActionInline ? 1 : 0));
   }, [defaultColsNumber, spanSize.span]);
 
   /** 计算最大宽度防止溢出换行 */
@@ -534,6 +544,7 @@ function QueryFilter<T = Record<string, any>>(props: QueryFilterProps<T>) {
             ignoreRules={ignoreRules}
             showLength={showLength}
             showHiddenNum={showHiddenNum}
+            formActionInline={formActionInline}
           />
         )}
       />
