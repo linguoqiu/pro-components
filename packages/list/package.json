@@ -1,6 +1,6 @@
 {
   "name": "orca-pro-list",
-  "version": "2.0.0-experimental.25",
+  "version": "2.0.0-experimental.26",
   "description": "🏆 Use Ant Design List like a Pro!",
   "keywords": [
     "antd",
@@ -30,7 +30,7 @@
     "@ant-design/icons": "^4.0.0",
     "orca-pro-card": "2.0.0-experimental.23",
     "orca-pro-field": "2.0.0-experimental.23",
-    "orca-pro-table": "3.0.0-experimental.25",
+    "orca-pro-table": "3.0.0-experimental.26",
     "@babel/runtime": "^7.18.0",
     "classnames": "^2.2.6",
     "dayjs": "^1.11.4",

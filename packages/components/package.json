@@ -1,6 +1,6 @@
 {
   "name": "orca-pro-components",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "@ant-design/pro-components",
   "keywords": [
     "antd",
@@ -30,14 +30,14 @@
   ],
   "dependencies": {
     "orca-pro-card": "2.0.0-experimental.23",
-    "orca-pro-descriptions": "2.0.0-experimental.23",
+    "orca-pro-descriptions": "2.0.0-experimental.24",
     "orca-pro-field": "2.0.0-experimental.23",
-    "orca-pro-form": "2.0.0-experimental.24",
+    "orca-pro-form": "2.0.0-experimental.25",
     "orca-pro-layout": "7.0.0-experimental.35",
-    "orca-pro-list": "2.0.0-experimental.25",
+    "orca-pro-list": "2.0.0-experimental.26",
     "orca-pro-provider": "2.0.0-experimental.13",
     "orca-pro-skeleton": "2.0.0-experimental.9",
-    "orca-pro-table": "3.0.0-experimental.25",
+    "orca-pro-table": "3.0.0-experimental.26",
     "orca-pro-utils": "2.0.0-experimental.22",
     "@babel/runtime": "^7.16.3"
   },

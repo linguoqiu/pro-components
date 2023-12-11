@@ -1,6 +1,6 @@
 {
   "name": "orca-pro-descriptions",
-  "version": "2.0.0-experimental.23",
+  "version": "2.0.0-experimental.24",
   "description": "@ant-design/pro-descriptions",
   "keywords": [
     "antd",
@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "orca-pro-field": "2.0.0-experimental.23",
-    "orca-pro-form": "2.0.0-experimental.24",
+    "orca-pro-form": "2.0.0-experimental.25",
     "orca-pro-skeleton": "2.0.0-experimental.9",
     "orca-pro-utils": "2.0.0-experimental.22",
     "@babel/runtime": "^7.18.0",
