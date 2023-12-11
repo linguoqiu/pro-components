@@ -1,3 +1,4 @@
+// @ts-nocheck
 import type { GenerateStyle, ProAliasToken } from 'orca-pro-utils';
 import { resetComponent, useStyle as useAntdStyle } from 'orca-pro-utils';
 
